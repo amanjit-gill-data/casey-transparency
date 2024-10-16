@@ -3,6 +3,9 @@ body {
   font-size: 1.2em;
 }
 
-
+header, footer {
+  color: blue;
+  font-size: 0.9em;
+}
 
 
