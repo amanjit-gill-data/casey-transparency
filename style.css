@@ -23,3 +23,9 @@ th:nth-child(2), td:nth-child(2) {
 tbody tr:last-child {
   font-style: italic;
 }
+
+.code {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+

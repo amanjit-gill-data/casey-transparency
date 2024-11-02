@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Casey Transparency</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  
+  <body>
+
+    <header>
+      Authorised by A. Gill, PO Box 1116, Narre Warren, VIC, 3805.
+    </header>
+
+    <a href="https://caseytransparency.com">Home</a><br>
+
+    <h1>Casey Transparency</h1>
+
+    <h2>Python code for Group A Results</h2>
+
+    <p>
+      If you have PDF files for Group A first preferences (one file per ward),
+      these scripts will convert them into other formats.
+    </p>
+
+    <p>
+      <b>Use at your own risk. No performance or quality guarantees. :)</b>
+    </p>
+
+    <p>
+      One script converts all the PDFs in a given directory to TSV. 
+      These files can be opened in Excel or LibreOffice Calc. This script also 
+      removes the first six lines (council name, etc). NOTE: After conversion,
+      check that all the numbers were recognised correctly. 
+    </p>
+    
+    <p>
+      The other script converts all the TSVs in a given directory to HTML. 
+      Each HTML file starts with &lt;table&gt; and ends with &lt;/table&gt;, so you 
+      can paste it directly into an HTML page. 
+    </p>
+
+    <p>
+      Usage:
+    </p>
+
+    <p class="code">
+      python results-pdf-to-tsv.py <i>directory-name</i><br>
+      python results-tsv-to-html.py <i>directory-name</i>
+    </p>
+
+    <a href="requirements.txt">Requirements</a><br>
+    <a href="results-pdf-to-tsv.py">PDF to TSV</a><br>
+    <a href="results-tsv-to-html.py">TSV to HTML</a><br><br>
+
+    <footer>
+      Authorised by A. Gill, PO Box 1116, Narre Warren, VIC, 3805.
+    </footer>
+
+  </body>
+</html>
