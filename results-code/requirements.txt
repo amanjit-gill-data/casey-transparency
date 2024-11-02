@@ -1,0 +1,7 @@
+# using python3.12 
+# jpype is optional dependency; tabula-py throws non-fatal error without it
+
+tabula-py
+jpype1
+pandas
+
