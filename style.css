@@ -8,4 +8,18 @@ header, footer {
   font-size: 0.9em;
 }
 
+table caption {
+  font-weight: bold;
+}
 
+th:nth-child(1), td:nth-child(1) {
+  text-align: left;
+}
+
+th:nth-child(2), td:nth-child(2) {
+  text-align: right;
+}
+
+tbody tr:last-child {
+  font-style: italic;
+}
