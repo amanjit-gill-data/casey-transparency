@@ -8,6 +8,10 @@ header, footer {
   font-size: 0.9em;
 }
 
+th, td {
+  padding-right: 25px;
+}
+
 table caption {
   font-weight: bold;
 }
@@ -17,6 +21,10 @@ th:nth-child(1), td:nth-child(1) {
 }
 
 th:nth-child(2), td:nth-child(2) {
+  text-align: left;
+}
+
+th:nth-child(3), td:nth-child(3) {
   text-align: right;
 }
 
